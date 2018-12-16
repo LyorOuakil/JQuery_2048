@@ -1,0 +1,37 @@
+ .grid-container {
+    display: grid;
+    width: 25%;
+    margin: auto;
+    grid-template-columns: 80px 80px 80px 80px;
+    grid-gap: 10px;
+    color: black;
+}
+
+.grid-cell {
+    background-color: beige;
+    color: black;
+    text-align: center;
+    border-radius: 2px;
+    padding: 20px;
+    font-size: 150%;
+    width: 40px;
+    height: 40px;
+  }
+
+.header {
+    text-align:  center;
+    padding: 2%;
+    color: white;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background: url(image.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+p {
+    color: white;
+    text-align: center;
+}
